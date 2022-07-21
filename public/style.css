@@ -1,0 +1,60 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: optima, sans-serif;
+}
+
+figcaption {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+.left {
+  text-align: left;
+}
+
+table.swag{
+  border: 2px solid #DDDDDD;
+  background-color: #111111;
+  width: 90%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.swag td, table.swag th {
+  border: 2px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.swag tbody td {
+  font-size: 13px;
+  color: #DDDDDD;
+}
+table.swag thead {
+  background: #111111;
+  border-bottom: 2px solid #444444;
+}
+table.swag thead th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #DDDDDD;
+  text-align: left;
+  border-left: 2px solid #DDDDDD;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #111111;
+   color: #DDDDDD;
+   text-align: center;
+   font-size: 8px;
+}
+
