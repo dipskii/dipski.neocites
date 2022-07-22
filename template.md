@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ddipski</title>
+    <!--uncomment and change stuff-->
+    <title>template</title>
     <!--favicon-->
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" href="./images/favicon.png" sizes="96x96">
@@ -12,30 +13,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="ddipski" />
-    <meta property="og:description" content="dipski!! woohoo" />
-    <meta property="og:url" content="blog.html" />
-    <meta property="og:image" content="./images/tomoko.png" />
+    <meta property="og:title" content="template" />
+    <!--site description-->
+    <meta property="og:description" content="template" />
+    <meta property="og:url" content="https://dipski.neocities.org/blog.html" />
+    <meta property="og:image" content="https://dipski.neocities.org/images/tomoko.png" />
     <link href="./style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
     <div class="header">
       <a href="index.html" class="logo">< back</a>
       <div class="header-right">
-        <p>niche internet microblog</p>
+        <!--awesome header-->
+        <p>darksydephil</p>
       </div>
     </div>
     <div class="center">
-      <p>i love my goofy lil cats</p>
-      <img class="resize" src="./images/そらあおばうに.png"/>
-      <p>amazing fellas....</p>
-      <hr class="small"/>
-      <a href="dsp.html">
-        <img class="dsp" src="./images/dsp.png"/>
-      <a href="dsp.html">
-        <p>dsp quotes</p>
-      </a>
-      </a>
+        <!--content-->
     </div>
   </body>
 </html>

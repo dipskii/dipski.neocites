@@ -4,7 +4,7 @@
 
 body {
   background-color: black;
-  color: white;
+  color: #AAAAAA;
   font-family: optima, sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 .header a {
   float: left;
   background-color: #111111;
-  color: white;
+  color: #AAAAAA;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -26,7 +26,7 @@ body {
 
 .header a:hover {
   background-color: #222222;
-  color: white;
+  color: #AAAAAA;
 }
 
 .header-right{
@@ -41,12 +41,12 @@ body {
 }
 
 .center a:link {
-  color: white;
+  color: #CCCCCC;
   text-decoration: none;
 }
 
 .center a:visited {
-  color: white;
+  color: #AAAAAA;
   text-decoration: none;
 }
 
@@ -56,7 +56,26 @@ img.resize{
   width: auto;
   max-height: 33%;
   max-width: 33%;
-  border: 2px solid 
+  border-radius: 5%;
+}
+
+img.dsp{
+  text-align: center;
+  height:auto;
+  width:auto;
+  max-height: 16%;
+  max-width: 16%;
+  border-radius: 5%;
+}
+
+hr.small {
+  border: 1px solid #363636;
+  width: 15%;
+}
+
+hr.dsp {
+  border: 1px solid #363636;
+  width: 15%;
 }
 
 figcaption {
@@ -101,4 +120,3 @@ table.swag thead th {
    text-align: center;
    font-size: 8px;
 }
-
