@@ -8,15 +8,59 @@ body {
   font-family: optima, sans-serif;
 }
 
-figcaption {
+.header {
+  overflow: hidden;
+}
+
+.header a {
+  float: left;
+  background-color: #111111;
+  color: white;
   text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 12px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #222222;
+  color: white;
+}
+
+.header-right{
+  top: 0px;
+  float: right;
+  font-size: 12px;
+  text-decoration: underline;
 }
 
 .center {
   text-align: center;
 }
-.left {
-  text-align: left;
+
+.center a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.center a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+img.resize{
+  text-align: center;
+  height: auto;
+  width: auto;
+  max-height: 33%;
+  max-width: 33%;
+  border: 2px solid 
+}
+
+figcaption {
+  text-align: center;
 }
 
 table.swag{
