@@ -36,7 +36,26 @@ body {
   text-decoration: underline;
 }
 
+p{
+  max-width: 75%;
+}
+
+.mla{
+  text-align: left;
+  text-indent: 50px;
+  line-height: 2;
+}
+.mla-quote{
+  text-align: left;
+  line-height: 2;
+  transform: translate(50px, 0px);
+}
+
 .center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
