@@ -113,7 +113,7 @@ figcaption {
 table.swag{
   border: 2px solid #DDDDDD;
   background-color: #111111;
-  width: 90%;
+  width: 75%;
   text-align: left;
   margin-left: auto;
   margin-right: auto;
@@ -122,6 +122,11 @@ table.swag td, table.swag th {
   border: 2px solid #AAAAAA;
   padding: 3px 2px;
 }
+
+td.center {
+  text-align: center;
+}
+
 table.swag tbody td {
   font-size: 13px;
   color: #DDDDDD;
